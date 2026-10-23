@@ -1,0 +1,14 @@
+{
+    "name": "local/helpdesk",
+    "description": "Helpdesk Ticket System - PHP 8.2 Custom MVC",
+    "require": {
+        "php": ">=8.2",
+        "ext-pdo": "*",
+        "ext-curl": "*",
+        "ext-fileinfo": "*"
+    },
+    "autoload": {
+        "psr-4": { "App\\": "src/" },
+        "files": ["src/Core/helpers.php"]
+    }
+}
